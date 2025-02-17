@@ -1,13 +1,15 @@
 ---
-title: "SF-FN F303"
-description: "Boulons hexagonaux"
+title: "Lentilles de Contact Premium OptiPlus"
+description: "Lentilles de Contact Quotidiennes Avancées"
+
 main:
   id: 4
   content: |
-    Découvrez les boulons hexagonaux SF-FN F303 – le choix parfait pour les applications de fixation lourdes. Conçus avec précision et durabilité, ces boulons hexagonaux offrent la force et la fiabilité dont vous avez besoin pour vos projets les plus exigeants.
+    Présentation des Lentilles de Contact Premium OptiPlus – la solution ultime pour une vision cristalline et un confort tout au long de la journée. Conçues avec une technologie avancée en hydrogel et des matériaux respirants, ces lentilles de contact offrent une clarté exceptionnelle tout en maintenant une santé oculaire optimale.
   imgCard: "@/images/product-image-4.avif"
   imgMain: "@/images/product-image-main-4.avif"
-  imgAlt: "Maquettes de boîtes de boulons hexagonaux"
+  imgAlt: "Mockup de l'emballage des lentilles de contact premium"
+
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -18,38 +20,43 @@ tabs:
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Plans"
+
 longDescription:
-  title: "Solutions de fixation robustes"
+  title: "Solutions Avancées de Soins Visuels"
   subTitle: |
-    Les boulons hexagonaux SF-FN F303 sont conçus pour relever les défis de fixation les plus difficiles avec aisance. Que vous travailliez sur des projets de construction ou des machines lourdes, ces boulons hexagonaux offrent la force et la fiabilité nécessaires.
-  btnTitle: "Contactez le service commercial pour en savoir plus"
+    Les Lentilles de Contact Premium OptiPlus allient science des matériaux de pointe et design ergonomique pour offrir une clarté visuelle et un confort exceptionnels. Parfaites pour un port quotidien ou prolongé, ces lentilles gardent vos yeux frais tout au long de la journée.
+  btnTitle: "Contactez les ventes pour en savoir plus"
   btnURL: "#"
+
 descriptionList:
-  - title: "Solidité et durabilité"
-    subTitle: "Fabriqués à partir de matériaux de haute qualité, ces boulons hexagonaux sont conçus pour supporter des charges lourdes et des conditions difficiles."
-  - title: "Ingénierie de précision"
-    subTitle: "Conçus avec des filets coupés avec précision et des spécifications exactes, garantissant un ajustement serré et sécurisé à chaque fois."
-  - title: "Polyvalence"
-    subTitle: "Adaptés à une large gamme d'applications, de la construction aux machines, offrant des solutions de fixation polyvalentes."
+  - title: "Confort Supérieur"
+    subTitle: "Le matériau en hydrogel avancé maintient des niveaux d'humidité optimaux tout au long de la journée, prévenant les yeux secs et les irritations."
+  - title: "Respirabilité Améliorée"
+    subTitle: "Le design perméable à l'oxygène permet un maximum de circulation d'air vers vos yeux, favorisant une meilleure santé oculaire et réduisant la fatigue."
+  - title: "Vision Cristalline"
+    subTitle: "Des optiques haute définition offrent une vision nette et claire à toutes les distances, avec une réduction de l'éblouissement et une amélioration du contraste."
+
 specificationsLeft:
-  - title: "Matériau"
-    subTitle: "Fabriqués en acier ou en alliage de qualité supérieure, offrant une résistance exceptionnelle et une résistance à la corrosion."
-  - title: "Conception du filetage"
-    subTitle: "Des filets coupés avec précision assurent une adhérence optimale et une fiabilité même dans des environnements à haute contrainte."
-  - title: "Quantité"
-    subTitle: "Chaque ensemble comprend une quantité suffisante de boulons hexagonaux pour divers projets et applications."
-  - title: "Tailles"
-    subTitle: "Disponible dans une gamme de tailles pour répondre aux différentes exigences des projets, garantissant polyvalence et compatibilité."
+  - title: "Technologie des Matériaux"
+    subTitle: "Fabriquées en silicone hydrogel avancé, offrant une perméabilité à l'oxygène supérieure et une rétention d'humidité."
+  - title: "Durée de Port"
+    subTitle: "Disponibles en options jetables quotidiennes et de remplacement mensuel pour s'adapter à différents modes de vie."
+  - title: "Protection UV"
+    subTitle: "Filtres UV intégrés protégeant vos yeux des radiations ultraviolettes nocives."
+  - title: "Gamme de Prescription"
+    subTitle: "Disponibles dans une large gamme de prescriptions, y compris des options pour l'astigmatisme et les besoins multifocaux."
+
 specificationsRight:
-  - title: "Finition"
-    subTitle: "Fini avec un revêtement protecteur pour améliorer la résistance à la corrosion et prolonger la durée de vie."
-  - title: "Capacité de charge"
-    subTitle: "Conçus pour répondre ou dépasser les normes industrielles en matière de capacité de charge, garantissant des performances fiables sous des charges lourdes."
-  - title: "Certifications"
-    subTitle: "Conformes aux normes et certifications industrielles pertinentes, garantissant qualité et fiabilité."
-  - title: "Applications"
-    subTitle: "Idéal pour une utilisation dans la construction, les machines, l'automobile et d'autres applications lourdes nécessitant une fixation solide et fiable."
+  - title: "Contenu en Humidité"
+    subTitle: "Contient 55 % d'eau pour une hydratation et un confort optimaux tout au long du temps de port."
+  - title: "Perméabilité à l'Oxygène"
+    subTitle: "Valeur Dk/t élevée assurant une excellente transmission d'oxygène pour des yeux plus sains."
+  - title: "Conformité"
+    subTitle: "Approuvées par la FDA et conformes à toutes les normes et réglementations pertinentes des dispositifs médicaux."
+  - title: "Polyvalence d'Utilisation"
+    subTitle: "Adaptées aux activités quotidiennes, aux sports et à un usage professionnel, avec une excellente stabilité et un confort."
+
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"    
+  second: "@/images/blueprint-2.avif"
 ---

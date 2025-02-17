@@ -1,13 +1,15 @@
 ---
-title: "SF-BN B203"
-description: "Tap Bolts and Nuts Set"
+title: "OptiPlus Designer Sunglasses"
+description: "Luxury Fashion Eyewear"
+
 main:
   id: 3
   content: |
-    Meet the SF-BN B203 – your reliable companion for professional-grade fastening. This comprehensive box set comes with a versatile selection of tap bolts and nuts, meticulously crafted to provide the strongest hold for your construction and assembly projects.
+    Discover the OptiPlus Designer Collection – where haute couture meets cutting-edge eye protection. Each pair is a masterpiece of artistic design and technical excellence, crafted for those who demand both exceptional style and superior optical performance.
   imgCard: "@/images/product-image-3.avif"
   imgMain: "@/images/product-image-main-3.avif"
-  imgAlt: "Mockup boxes of a tap bolts and nuts set"
+  imgAlt: "Mockup of luxury designer sunglasses collection"
+
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -18,38 +20,43 @@ tabs:
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
+
 longDescription:
-  title: "Strength Meets Precision"
+  title: "Luxury Meets Innovation"
   subTitle: |
-    The SF-BN B203 Tap Bolts and Nuts Set offers robust durability and precision for construction professionals, ensuring reliable performance in every application, from house framing to machinery assembly.
+    OptiPlus Designer Sunglasses represent the pinnacle of eyewear craftsmanship. Each frame is meticulously designed by world-renowned fashion artists and expertly crafted using premium materials and cutting-edge lens technology.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
+
 descriptionList:
-  - title: "Corrosion Resistance"
-    subTitle: "Zinc coating not only provides a polished look but also shields against corrosion, ensuring longevity."
-  - title: "Improved Safety"
-    subTitle: "A secure fitting translates to safer structures with reduced risk of component failure."
-  - title: "Convenience"
-    subTitle: "This all-in-one set means you have the right size on hand, cutting down on project delays and additional trips to the hardware store."
+  - title: "Exclusive Designs"
+    subTitle: "Limited edition frames created by leading fashion designers, featuring unique aesthetic elements and signature styling."
+  - title: "Premium Materials"
+    subTitle: "Handcrafted from exotic materials including Italian acetate, precious metals, and rare wood inlays."
+  - title: "Bespoke Comfort"
+    subTitle: "Custom-fitted with adjustable nose pads and temple tips, ensuring perfect comfort for extended wear."
+
 specificationsLeft:
-  - title: "Material Composition"
-    subTitle: "Manufactured from high-grade steel, delivering strength and reliability for demanding applications."
-  - title: "Surface Finish"
-    subTitle: "Protected with a zinc coating to offer enhanced corrosion resistance and longevity."
-  - title: "Quantity Per Set"
-    subTitle: "The set includes a balanced selection of 25 tap bolts and 25 matching nuts."
-  - title: "Size Assortment"
-    subTitle: "Features a comprehensive range of sizes to cater to various project requirements, ensuring compatibility and versatility."
+  - title: "Frame Construction"
+    subTitle: "Hand-finished frames using premium materials including titanium, beta-titanium, and Japanese acetate."
+  - title: "Lens Excellence"
+    subTitle: "Premium polarized lenses with multi-layer coatings, providing superior clarity and protection."
+  - title: "Design Elements"
+    subTitle: "Signature design details including 24K gold plating, hand-inlaid precious stones, and custom engravings."
+  - title: "Exclusivity"
+    subTitle: "Limited production runs with numbered editions, ensuring uniqueness and collectible value."
+
 specificationsRight:
-  - title: "Thread Details"
-    subTitle: "Engineered with precision-cut threads for a secure fit and easy installation."
-  - title: "Mechanical Properties"
-    subTitle: "Each bolt and nut is designed to meet specific load rating or strength grades, suitable for structural applications."
-  - title: "Standards and Certifications"
-    subTitle: "Complies with relevant industry standards and certifications, ensuring consistent quality and safety."
-  - title: "Suitable Applications"
-    subTitle: "Ideal for a wide array of uses, from construction environments to mechanical assemblies that demand strong and secure joints."
+  - title: "Craftsmanship"
+    subTitle: "Each pair undergoes 100+ steps of hand-finishing by master artisans."
+  - title: "Authentication"
+    subTitle: "Includes certificate of authenticity and unique serial number registration."
+  - title: "Customization"
+    subTitle: "Available with bespoke options including custom lens tints and personalized engravings."
+  - title: "Heritage"
+    subTitle: "Designed and crafted in collaboration with renowned fashion houses."
+
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  second: "@/images/blueprint-2.avif"
 ---

@@ -1,13 +1,12 @@
 ---
-title: "SF-TB T845"
-description: "Machine Screws"
+title: "OptiPlus Polarized Sunglasses"
+description: "Premium Eyewear"
 main:
   id: 1
-  content: |
-    Introducing the SF-TB T845 – your go-to solution for precision fastening in machinery and equipment. This comprehensive set of machine screws is meticulously crafted to meet the stringent demands of industrial applications, ensuring secure and reliable fastening.
-  imgCard: "@/images/product-image-1.avif"
-  imgMain: "@/images/product-image-main-1.avif"
-  imgAlt: "Mockup boxes of machine screws set"
+  content: "Introducing OptiPlus Polarized Sunglasses – your ultimate solution for eye protection and clarity in bright conditions. This stylish eyewear is meticulously crafted to meet the highest standards of quality, ensuring your eyes are shielded from harmful UV rays while enjoying crystal-clear vision."
+  imgCard: "../../../images/product-image-1.avif"
+  imgMain: "../../../images/product-image-main-1.avif"
+  imgAlt: "Mockup boxes of polarized sunglasses set"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,37 +18,27 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Precision Fastening Solutions"
-  subTitle: |
-    The SF-TB T845 Machine Screws offer unparalleled precision and reliability for industrial applications, ensuring seamless operation and longevity for your machinery and equipment.
+  title: "Ultimate Eye Protection"
+  subTitle: "OptiPlus Polarized Sunglasses provide unparalleled protection and style, ensuring your eyes remain comfortable and shielded during outdoor activities."
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Durability"
-    subTitle: "Crafted from high-quality materials, these machine screws are built to withstand the rigors of industrial environments."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit for every application."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of machinery and equipment, providing versatile fastening solutions for various industrial needs."
+  - title: "UV Protection"
+    subTitle: "Equipped with lenses that block 100% of harmful UVA and UVB rays, safeguarding your eyes from sun damage."
+  - title: "Polarized Lenses"
+    subTitle: "Engineered to reduce glare from reflective surfaces, enhancing visual clarity and comfort in bright conditions."
+  - title: "Stylish Design"
+    subTitle: "Available in a variety of fashionable styles to suit every personality and occasion."
 specificationsLeft:
-  - title: "Material Composition"
-    subTitle: "Constructed from premium-grade steel or alloy for exceptional strength and durability."
-  - title: "Surface Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Quantity Per Set"
-    subTitle: "Each set contains a comprehensive assortment of machine screws to meet diverse industrial requirements."
+  - title: "Lens Material"
+    subTitle: "Crafted from high-quality polycarbonate for lightweight durability and impact resistance."
+  - title: "Frame Composition"
+    subTitle: "Constructed from premium materials that ensure flexibility and long-lasting wear."
+  - title: "Color Options"
+    subTitle: "Available in a range of colors and finishes to match your style preferences."
   - title: "Size Range"
-    subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
-specificationsRight:
-  - title: "Thread Specifications"
-    subTitle: "Precision-engineered threads ensure optimal grip and reliability, even in high-vibration environments."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring safe and reliable operation."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in a wide range of industrial machinery, equipment, and assemblies that demand precise and secure fastening."
+    subTitle: "Designed to fit a variety of face shapes and sizes for maximum comfort."
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"   
+  first: "../../../images/blueprint-1.avif"
+  second: "../../../images/blueprint-2.avif"
 ---

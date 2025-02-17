@@ -1,13 +1,15 @@
 ---
-title: "SF-AB A765"
-description: "Ensemble de Vis Assorties"
+title: "Lunettes de Soleil Photochromiques OptiPlus"
+description: "Lunettes Intelligentes Adaptatives"
+
 main:
   id: 2
   content: |
-    Découvrez l'ensemble de vis assorties SF-AB A765 – la solution ultime pour vos besoins de fixation. Ce set complet comprend une grande variété de vis soigneusement sélectionnées pour aborder divers projets avec facilité et précision.
+    Découvrez les Lunettes de Soleil Photochromiques OptiPlus – une révolution en matière de lunetterie qui s'adapte à votre environnement. Ces lunettes innovantes intègrent une technologie photosensible avancée qui ajuste automatiquement la teinte des verres en fonction de l'exposition aux UV, offrant une vision et une protection optimales dans toutes les conditions d'éclairage.
   imgCard: "@/images/product-image-2.avif"
   imgMain: "@/images/product-image-main-2.avif"
-  imgAlt: "Boîtes factices de l'ensemble de vis assorties"
+  imgAlt: "Maquette de lunettes photochromiques montrant la transition des verres"
+
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -18,36 +20,41 @@ tabs:
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Plans"
+
 longDescription:
-  title: "Solutions Polyvalentes de Fixation"
+  title: "Technologie Adaptative Intelligente"
   subTitle: |
-    L'ensemble de vis assorties SF-AB A765 offre une polyvalence et une commodité inégalées, ce qui en fait le choix idéal pour les amateurs de bricolage et les professionnels. Avec une sélection complète de vis, vous aurez toujours le bon élément de fixation pour chaque tâche.
+    Les Lunettes de Soleil Photochromiques OptiPlus passent harmonieusement du clair au foncé selon l'intensité des UV. Parfaites pour les environnements dynamiques, ces lunettes éliminent le besoin d'alterner entre lunettes classiques et lunettes de soleil tout au long de la journée.
   btnTitle: "Contactez les ventes pour en savoir plus"
   btnURL: "#"
+
 descriptionList:
-  - title: "Grande Variété"
-    subTitle: "Comprend une gamme diversifiée de types et de tailles de vis pour s'adapter à diverses applications et matériaux."
-  - title: "Facilité d'Utilisation"
-    subTitle: "Chaque vis est conçue pour une installation facile, garantissant une fixation sans tracas à chaque fois."
-  - title: "Commodité"
-    subTitle: "Élimine le besoin de multiples déplacements au magasin de bricolage, économisant temps et effort sur vos projets."
+  - title: "Teinte Adaptative"
+    subTitle: "Les molécules photochromiques avancées réagissent instantanément aux UV, ajustant automatiquement l'obscurcissement des verres pour une visibilité optimale en toute condition."
+  - title: "Réponse Rapide"
+    subTitle: "La technologie de transition rapide assure une adaptation instantanée aux changements de luminosité, offrant un confort et une protection continus."
+  - title: "Polyvalence Quotidienne"
+    subTitle: "Parfaites pour une utilisation en intérieur comme en extérieur, éliminant le besoin de changer de lunettes."
+
 specificationsLeft:
-  - title: "Matériau"
-    subTitle: "Fabriqué à partir de matériaux de haute qualité tels que l'acier inoxydable, assurant durabilité et résistance à la corrosion."
-  - title: "Assortiment"
-    subTitle: "Contient un assortiment généreux de vis, incluant des vis à bois, des vis mécaniques, et des vis pour tôle."
-  - title: "Quantité"
-    subTitle: "Chaque set comprend une quantité suffisante de vis pour gérer une large gamme de projets et de tâches."
-  - title: "Tailles"
-    subTitle: "Disponible en différentes tailles pour s'adapter aux exigences de divers projets, assurant compatibilité et polyvalence."
+  - title: "Technologie des Verres"
+    subTitle: "Composés photochromiques de pointe intégrés dans des verres optiques de haute qualité."
+  - title: "Temps de Transition"
+    subTitle: "S'assombrit en 30 secondes, s'éclaircit en moins de 2 minutes pour une adaptation rapide à la lumière."
+  - title: "Niveau de Protection"
+    subTitle: "Protection UV 100% dans les états clair et foncé, avec transmission variable de la lumière visible."
+  - title: "Durabilité"
+    subTitle: "Technologie photochromique stable en température maintenant une performance constante dans diverses conditions météorologiques."
+
 tableData:
   - feature: ["Spécification", "Valeur"]
     description:
-      - ["Longueur (mm)", "Divers"]
-      - ["Poids (g)", "N/A"]
-      - ["Matériau", "Acier Inoxydable"]
-      - ["Finition", "Assortie"]
-      - ["Contenu du Pack", "Diverses vis dans un ensemble"]
+      - ["Matériau des Verres", "Polymère Photochromique"]
+      - ["Transmission Lumineuse", "85% (Clair) à 15% (Foncé)"]
+      - ["Protection UV", "100% (UV400)"]
+      - ["Plage de Température", "-10°C à 40°C"]
+      - ["Contenu du Package", "Lunettes, Étui Protecteur, Kit de Nettoyage"]
+
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"

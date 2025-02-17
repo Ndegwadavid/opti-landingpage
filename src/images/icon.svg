@@ -1,8 +1,5 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="-0.00585938" y="-0.000488281" width="512" height="512" rx="100" fill="#262626"/>
-<rect x="20.9297" y="109.01" width="173.138" height="40.5431" rx="20.2715" transform="rotate(0.0432252 20.9297 109.01)" fill="#FACC15"/>
-<rect x="100.982" y="183.969" width="173.138" height="40.5431" rx="20.2715" transform="rotate(0.0432252 100.982 183.969)" fill="#FACC15"/>
-<rect x="181.491" y="259.354" width="173.138" height="40.5431" rx="20.2715" transform="rotate(0.0432252 181.491 259.354)" fill="#FACC15"/>
-<rect x="261.998" y="334.739" width="62.4311" height="40.5431" rx="20.2715" transform="rotate(0.0432252 261.998 334.739)" fill="#FACC15"/>
-<path d="M442.513 435.922C445.843 442.651 438.906 449.847 432.059 446.766L355.339 412.235C350.291 409.962 349.021 403.373 352.863 399.387L392.264 358.515C396.106 354.53 402.737 355.557 405.193 360.519L442.513 435.922Z" fill="#FACC15"/>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.0007 12C15.0007 13.6569 13.6576 15 12.0007 15C10.3439 15 9.00073 13.6569 9.00073 12C9.00073 10.3431 10.3439 9 12.0007 9C13.6576 9 15.0007 10.3431 15.0007 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.0012 5C7.52354 5 3.73326 7.94288 2.45898 12C3.73324 16.0571 7.52354 19 12.0012 19C16.4788 19 20.2691 16.0571 21.5434 12C20.2691 7.94291 16.4788 5 12.0012 5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

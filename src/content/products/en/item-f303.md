@@ -1,13 +1,13 @@
 ---
-title: "SF-FN F303"
-description: "Hex Bolts"
+title: "OptiPlus Premium Contact Lenses"
+description: "Advanced Daily Contact Lenses"
 main:
   id: 4
   content: |
-    Introducing the SF-FN F303 Hex Bolts – the perfect choice for heavy-duty fastening applications. Crafted with precision and durability in mind, these hex bolts provide the strength and reliability you need for your toughest projects.
+    Introducing OptiPlus Premium Contact Lenses – the ultimate solution for crystal-clear vision and all-day comfort. Engineered with advanced hydrogel technology and breathable materials, these contact lenses provide exceptional clarity while maintaining optimal eye health.
   imgCard: "@/images/product-image-4.avif"
   imgMain: "@/images/product-image-main-4.avif"
-  imgAlt: "Mockup boxes of hex bolts"
+  imgAlt: "Mockup of premium contact lens packaging"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,37 +19,37 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Heavy-Duty Fastening Solutions"
+  title: "Advanced Vision Care Solutions"
   subTitle: |
-    The SF-FN F303 Hex Bolts are designed to handle the toughest fastening challenges with ease. Whether you're working on construction projects or heavy machinery, these hex bolts deliver the strength and reliability you need.
+    OptiPlus Premium Contact Lenses combine cutting-edge material science with ergonomic design to deliver outstanding visual clarity and comfort. Perfect for both daily wear and extended use, these lenses keep your eyes feeling fresh throughout the day.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Strength and Durability"
-    subTitle: "Constructed from high-quality materials, these hex bolts are built to withstand heavy loads and tough conditions."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit every time."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of applications, from construction to machinery, providing versatile fastening solutions."
+  - title: "Superior Comfort"
+    subTitle: "Advanced hydrogel material maintains optimal moisture levels throughout the day, preventing dry eyes and irritation."
+  - title: "Enhanced Breathability"
+    subTitle: "Oxygen-permeable design allows for maximum airflow to your eyes, promoting better eye health and reducing fatigue."
+  - title: "Crystal Clear Vision"
+    subTitle: "High-definition optics provide sharp, clear vision at all distances, with reduced glare and improved contrast."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Made from premium-grade steel or alloy, offering exceptional strength and corrosion resistance."
-  - title: "Thread Design"
-    subTitle: "Precision-cut threads ensure optimal grip and reliability, even in high-stress environments."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of hex bolts to tackle various projects and applications."
-  - title: "Sizes"
-    subTitle: "Available in a range of sizes to accommodate different project requirements, ensuring versatility and compatibility."
+  - title: "Material Technology"
+    subTitle: "Made from advanced silicone hydrogel, offering superior oxygen permeability and moisture retention."
+  - title: "Wear Duration"
+    subTitle: "Available in daily disposable and monthly replacement options to suit different lifestyle needs."
+  - title: "UV Protection"
+    subTitle: "Built-in UV filters protect your eyes from harmful ultraviolet radiation."
+  - title: "Prescription Range"
+    subTitle: "Available in a wide range of prescriptions, including options for astigmatism and multifocal needs."
 specificationsRight:
-  - title: "Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring reliable performance under heavy loads."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in construction, machinery, automotive, and other heavy-duty applications that demand strong and reliable fastening."
+  - title: "Moisture Content"
+    subTitle: "Features 55% water content for optimal hydration and comfort throughout wear time."
+  - title: "Oxygen Permeability"
+    subTitle: "High Dk/t value ensures excellent oxygen transmission for healthier eyes."
+  - title: "Compliance"
+    subTitle: "FDA-approved and compliant with all relevant medical device standards and regulations."
+  - title: "Usage Versatility"
+    subTitle: "Suitable for daily activities, sports, and professional use, with excellent stability and comfort."
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  second: "@/images/blueprint-2.avif"
 ---

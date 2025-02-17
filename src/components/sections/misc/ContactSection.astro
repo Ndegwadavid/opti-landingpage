@@ -1,19 +1,19 @@
 ---
-// Import the necessary dependencies.
-import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
-import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
-import TextInput from "@components/ui/forms/input/TextInput.astro";
-import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astro";
-import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
-import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
-import Icon from "@components/ui/icons/Icon.astro";
+  // Import the necessary dependencies.
+  import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
+  import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
+  import TextInput from "@components/ui/forms/input/TextInput.astro";
+  import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astro";
+  import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
+  import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
+  import Icon from "@components/ui/icons/Icon.astro";
 
-// Define the variables that will be used in this component
-const title: string = "Contact us";
-const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+  // Define the variables that will be used in this component
+  const title: string = "Contact us";
+  const subTitle: string =
+    "Have questions or want to discuss a project? Reach out, and we'll get back to you in 24 hrs.";
+  const formTitle: string = "Fill in the form below";
+  const formSubTitle: string = "We'll get back to you in 24 hrs.";
 ---
 
 <!-- Contact Us -->
@@ -39,7 +39,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
         </h2>
         <!-- Form for user input with various input fields.-->
         <!-- Each field utilizes a different input component for the specific type of input (text, email, phone, and textarea)-->
-        <form>
+        <form action="mailto:info@optikenya.com" method="POST" enctype="text/plain">
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
@@ -81,7 +81,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
           content="Browse through all of our knowledgebase articles."
           isLinkVisible={true}
           linkTitle="Visit guides & tutorials"
-          linkURL="#"
+          linkURL="/blog"
           isArrowVisible={true}
           ><Icon name="question" />
         </ContactIconBlock>
@@ -97,10 +97,10 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
+          heading="Visit our shops"
+          content="Visit us at our branches located at:"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="Moi Avenue | Nacico Chambers, Ronald Ngala Street Opposite Posta House"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
@@ -108,8 +108,8 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
           heading="Contact us by email"
           content="Prefer the written word? Drop us an email at"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
-          linkURL="#"
+          linkTitle="info@optikenya.com"
+          linkURL="mailto:info@optikenya.com"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
       </div>

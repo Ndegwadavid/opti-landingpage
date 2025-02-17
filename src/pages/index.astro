@@ -21,116 +21,112 @@ import dashboard from "@images/dashboard-image.avif";
 import { partnersData } from "@/data_files/constants";
 
 const avatarSrcs: Array<string> = [
-  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+  //"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+  //"https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+  //"https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
+  //"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
 ];
 ---
 
 <MainLayout>
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
+    btnTitle="Chat with Optiplus Sales Team"
+    url="https://wa.me/+254702220545"
+    target="_blank"
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
-    withReview={true}
-    avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
-  />
+  title=`See the World Clearly with <span class="text-yellow-500 dark:text-yellow-400">OptiPlus</span>`
+  subTitle="Premium eyewear solutions for sharp vision and unmatched style. Discover a collection that blends comfort, technology, and elegance."
+  primaryBtn="Start Exploring"
+  primaryBtnURL="/products"
+  secondaryBtn="Contact Sales Team"
+  secondaryBtnURL="https://wa.me/+254797342380?text=Hello%2C%20OptiPlus%20can%20I%20get%20more%20information%20on%20frames%20at%20your%20shops%3F"
+  withReview={true}
+  avatars={avatarSrcs}
+  rating=`<span class="font-bold">4.8</span> / 5`
+  starCount={4}
+  reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+  src={heroImage}
+  alt="Elegant eyewear display showcasing OptiPlus products"
+/>
 
-  <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
-    partners={partnersData}
-  />
+
 
   <FeaturesGeneral
-    title="Meeting Industry Demands"
-    subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
+    title="Eyewear Designed for Every Lifestyle"
+    subTitle="At OptiPlus, we offer high-quality lenses and frames to enhance vision and style. Explore durable, fashion-forward eyewear tailored to your needs."
     src={featureImage}
-    alt="ScrewFast products in floating boxes"
+    alt="Variety of stylish glasses displayed on a modern setup"
     features={features}
   />
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">Optiplus </span>Eyewear for the Perfect Fit.`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "Advanced Lenses",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
+          "Experience cutting-edge lens technology, including blue light filtering, UV protection, and prescription customization for crystal-clear vision.",
         svg: "tools",
         src: tools,
-        alt: "Yellow and black heavy equipment on brown grass field",
+        alt: "A showcase of premium optical lenses with anti-glare protection",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
+        heading: "Stylish Frames",
         content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
+          "Choose from a wide range of frames, from classic designs to modern fashion statements. Our collection is crafted for comfort and durability.",
         svg: "dashboard",
         src: dashboard,
-        alt: "A screenshot or graphic representation of the intuitive dashboard",
+        alt: "Assorted designer frames neatly arranged on a display stand",
         second: true,
       },
       {
-        heading: "Robust Features",
+        heading: "Personalized Styling",
         content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
+          "Find eyewear that complements your personality and enhances your look. Our experts help match you with the perfect pair.",
         svg: "house",
         src: construction,
-        alt: "Gray metal building frame near tower crane during daytime",
+        alt: "A fashion model wearing stylish OptiPlus eyewear with confidence",
       },
     ]}
   />
 
   <TestimonialsSection
-    title="Fast-Track Your Projects"
-    subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
+    title="What Our Customers Say"
+    subTitle="Join thousands of satisfied customers who trust OptiPlus for superior vision and style."
     ;
     testimonials={[
       {
         content:
-          "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-        author: "Samantha Ruiz",
-        role: "Chief Operating Officer | ConstructIt Inc.",
+          "OptiPlus completely transformed my eyewear experience! Their stylish frames and high-quality lenses are unmatched. Highly recommended!",
+        author: "John Muthoni",
+        role: "Fashion Enthusiast",
         avatarSrc:
-          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=320&h=320&auto=format&fit=crop&ixlib",
       },
     ]}
     statistics={[
       {
-        count: "70k+",
+        count: "15k+",
         description:
-          "customers equipped — from DIY to major construction firms",
+          "satisfied customers enjoying premium eyewear solutions",
       },
       {
-        count: "35%",
+        count: "98%",
         description:
-          "uptick in project efficiency with ScrewFast tools and services",
+          "positive feedback on comfort and durability of our glasses",
       },
       {
-        count: "15.3%",
+        count: "30%",
         description:
-          "reduction in maintenance costs reported by long-term clients",
+          "reduction in eye strain with our blue light filtering lenses",
       },
       {
-        count: "2x",
-        description: "quicker assembly using innovative fastening solutions",
+        count: "5-star",
+        description: "average rating from thousands of reviews",
       },
     ]}
   />
@@ -140,8 +136,9 @@ const avatarSrcs: Array<string> = [
   <FAQ title="Frequently<br />asked questions" faqs={faqs} />
 
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    title="Schedule your Visit"
+    subTitle="Ensure optimal vision health with a professional eye check-up. Schedule an appointment with our trusted optometrists now."
+    url="https://appointments.optiplus.co.ke"
+    target="_blank"
   />
 </MainLayout>

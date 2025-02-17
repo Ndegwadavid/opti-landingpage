@@ -13,20 +13,27 @@ const pageTitle: string = `Contact | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/contact",
-    "url": "https://screwfast.uk/contact",
-    "name": "Contact Us | ScrewFast",
+    "@id": "https://optiplus.co.ke/contact",
+    "url": "https://optiplus.co.ke/contact",
+    "name": "Contact Us | Optiplus",
     "description":
-      "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.",
+      "Have questions or want to discuss eyewear solutions? Reach out, and we'll get back to you in less than 24 hours.",
     "isPartOf": {
       "@type": "WebSite",
-      "url": "https://screwfast.uk",
-      "name": "ScrewFast",
+      "url": "https://optiplus.co.ke",
+      "name": "Optiplus",
       "description":
-        "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+        "Optiplus offers a wide range of eyewear solutions to meet all your vision needs.",
     },
     "inLanguage": "en-US"
   }}
 >
-  <ContactSection />
+  <ContactSection 
+    email="info@optikenya.com" 
+    phoneNumbers={["+254702220545", "+254105165560"]} 
+    branches={[
+      "Moi Avenue, Nacico Chambers, Ground Floor", 
+      "Ronald Ngala Street, Opposite Posta"
+    ]}
+  />
 </MainLayout>

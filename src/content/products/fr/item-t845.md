@@ -1,13 +1,14 @@
 ---
-title: "SF-TB T845"
-description: "Vis à machine"
+title: "Lunettes de Soleil Polarisées OptiPlus"
+description: "Lunettes de Qualité Supérieure"
+
 main:
   id: 1
-  content: |
-    Découvrez le SF-TB T845 – votre solution de prédilection pour la fixation de précision dans les machines et équipements. Cet ensemble complet de vis à machine est méticuleusement conçu pour répondre aux exigences strictes des applications industrielles, garantissant une fixation sécurisée et fiable.
-  imgCard: "@/images/product-image-1.avif"
-  imgMain: "@/images/product-image-main-1.avif"
-  imgAlt: "Maquettes de boîtes de vis à machine"
+  content: "Présentation des Lunettes de Soleil Polarisées OptiPlus – votre solution ultime pour la protection oculaire et la clarté en conditions lumineuses. Ces lunettes élégantes sont méticuleusement conçues pour répondre aux normes les plus élevées de qualité, garantissant que vos yeux sont protégés des rayons UV nocifs tout en profitant d'une vision cristalline."
+  imgCard: "../../../images/product-image-1.avif"
+  imgMain: "../../../images/product-image-main-1.avif"
+  imgAlt: "Mockup des boîtes d'un ensemble de lunettes de soleil polarisées"
+
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -18,38 +19,32 @@ tabs:
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Plans"
+
 longDescription:
-  title: "Solutions de fixation de précision"
-  subTitle: |
-    Les vis à machine SF-TB T845 offrent une précision et une fiabilité inégalées pour les applications industrielles, garantissant un fonctionnement fluide et une longue durée de vie pour vos machines et équipements.
-  btnTitle: "Contactez le service commercial pour en savoir plus"
+  title: "Protection Oculaire Ultime"
+  subTitle: "Les Lunettes de Soleil Polarisées OptiPlus offrent une protection et un style inégalés, garantissant que vos yeux restent confortables et protégés lors d'activités en extérieur."
+  btnTitle: "Contactez les ventes pour en savoir plus"
   btnURL: "#"
+
 descriptionList:
-  - title: "Durabilité"
-    subTitle: "Fabriquées à partir de matériaux de haute qualité, ces vis à machine sont conçues pour résister aux rigueurs des environnements industriels."
-  - title: "Ingénierie de précision"
-    subTitle: "Conçues avec des filets coupés avec précision et des spécifications exactes, garantissant un ajustement serré et sécurisé pour chaque application."
-  - title: "Polyvalence"
-    subTitle: "Adaptées à une large gamme de machines et d'équipements, offrant des solutions de fixation polyvalentes pour divers besoins industriels."
+  - title: "Protection UV"
+    subTitle: "Équipées de lentilles qui bloquent 100 % des rayons UVA et UVB nocifs, protégeant vos yeux des dommages causés par le soleil."
+  - title: "Lentilles Polarisées"
+    subTitle: "Conçues pour réduire l'éblouissement des surfaces réfléchissantes, améliorant la clarté visuelle et le confort en conditions lumineuses."
+  - title: "Design Élégant"
+    subTitle: "Disponibles dans une variété de styles à la mode pour convenir à chaque personnalité et occasion."
+
 specificationsLeft:
-  - title: "Composition du matériau"
-    subTitle: "Construites en acier ou alliage de qualité supérieure pour une résistance et une durabilité exceptionnelles."
-  - title: "Finition de surface"
-    subTitle: "Fini avec un revêtement protecteur pour améliorer la résistance à la corrosion et prolonger la durée de vie."
-  - title: "Quantité par ensemble"
-    subTitle: "Chaque ensemble contient un assortiment complet de vis à machine pour répondre aux divers besoins industriels."
-  - title: "Gamme de tailles"
-    subTitle: "Disponible en différentes tailles et longueurs pour s'adapter aux spécifications des machines et équipements."
-specificationsRight:
-  - title: "Spécifications du filetage"
-    subTitle: "Des filets conçus avec précision assurent une adhérence optimale et une fiabilité, même dans les environnements à haute vibration."
-  - title: "Capacité de charge"
-    subTitle: "Conçues pour répondre ou dépasser les normes industrielles en matière de capacité de charge, garantissant une opération sûre et fiable."
-  - title: "Certifications"
-    subTitle: "Conformes aux normes et certifications industrielles pertinentes, garantissant qualité et fiabilité."
-  - title: "Applications"
-    subTitle: "Idéal pour une utilisation dans une large gamme de machines industrielles, équipements et assemblages nécessitant une fixation précise et sécurisée."
+  - title: "Matériau des Lentilles"
+    subTitle: "Fabriquées en polycarbonate de haute qualité pour une durabilité légère et une résistance aux chocs."
+  - title: "Composition de la Monture"
+    subTitle: "Construites à partir de matériaux premium garantissant flexibilité et durabilité."
+  - title: "Options de Couleur"
+    subTitle: "Disponibles dans une gamme de couleurs et de finitions pour correspondre à vos préférences de style."
+  - title: "Gamme de Tailles"
+    subTitle: "Conçues pour s'adapter à une variété de formes et de tailles de visage pour un confort maximal."
+
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  first: "../../../images/blueprint-1.avif"
+  second: "../../../images/blueprint-2.avif"
 ---

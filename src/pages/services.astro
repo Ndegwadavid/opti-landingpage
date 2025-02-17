@@ -36,58 +36,58 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Delivering Expert Guidance",
+    title: "Free Eye Consultations",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "At OptiPlus, we believe that everyone deserves access to quality eye care. Our free eye consultations allow you to discuss your vision needs with our experienced optometrists. Whether you're experiencing vision problems or just need a routine check-up, we're here to help.",
     single: false,
     imgOne: blueprints,
-    imgOneAlt: "Blueprints and digital tablet with construction plans.",
+    imgOneAlt: "Optometrist providing a free eye consultation.",
     imgTwo: personWorking,
-    imgTwoAlt: "Person working in the office",
+    imgTwoAlt: "Patient receiving personalized eyewear consultation.",
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Easy Appointment Booking",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "Scheduling your eye care appointments has never been easier. With our free online booking system, you can select a time that works for you and manage your appointments effortlessly. Experience convenience at your fingertips.",
     img: beforeAfter,
-    imgAlt: "Construction site before and after",
+    imgAlt: "Online appointment booking interface",
     btnExists: true,
-    btnTitle: "Learn More",
-    btnURL: "#",
+    btnTitle: "Book Your Appointment",
+    btnURL: "https://appointments.optiplus.co.ke",
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Comprehensive Eye Exams",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "Our comprehensive eye exams are designed to assess your vision and eye health thoroughly. We utilize the latest technology and techniques to ensure accurate diagnoses and effective treatment plans, tailored to your individual needs.",
     single: false,
     imgOne: constructionWorkers,
-    imgOneAlt: "Construction workers orchestrating a project",
+    imgOneAlt: "Patient undergoing an eye examination",
     imgTwo: aerialView,
-    imgTwoAlt: "Aerial view of managed construction",
+    imgTwoAlt: "Assorted contact lenses available for selection",
   },
   {
     isRightSection: false,
-    title: "Ensuring Long-lasting Performance",
+    title: "Wide Selection of Eyewear",
     subTitle:
-      "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "Choose from a diverse range of eyewear options, including stylish frames and high-quality lenses. Our knowledgeable staff is here to assist you in finding the perfect pair that suits your style and vision requirements.",
     img: usingTools,
     imgAlt:
-      "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+      "Selection of stylish eyewear frames",
   },
   {
     isRightSection: true,
-    title: "Crafting Bespoke Strategies for Unique Challenges",
+    title: "Exceptional Customer Service",
     subTitle:
-      "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "At OptiPlus, we pride ourselves on delivering exceptional customer service. Our friendly team is dedicated to ensuring your experience is smooth and enjoyable, from your first consultation to your eyewear fitting.",
     single: false,
     imgOne: progressBuilding,
-    imgOneAlt: "In progress building structure",
+    imgOneAlt: "Customer service representative assisting a client",
     imgTwo: underConstruction,
-    imgTwoAlt: "Brown and gray building under construction",
+    imgTwoAlt: "Optometrist explaining eye health to a patient",
     btnExists: true,
-    btnTitle: "Read more",
+    btnTitle: "Learn More",
     btnURL: "#",
   },
 ];
@@ -100,26 +100,26 @@ const pageTitle: string = `Services | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
-    "name": "Expert Consultation Services | ScrewFast",
-    "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+    "@id": "https://optiplus.com/services",
+    "url": "https://optiplus.com/services",
+    "name": "Expert Eye Care Services | OptiPlus",
+    "description": "OptiPlus offers exceptional eye care services, including free consultations, comprehensive eye exams, and a wide selection of eyewear tailored to your vision needs.",
     "isPartOf": {
         "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
-        "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+        "url": "https://optiplus.com",
+        "name": "Optiplus",
+        "description": "OptiPlus provides top-tier eye care services and stylish eyewear to meet all your vision needs."
     },
     "inLanguage": "en-US"
   }}
 >
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="Your Vision, Our Priority"
+    subTitle="At OptiPlus, we are dedicated to providing comprehensive eye care solutions and exceptional service. Our experienced team is committed to supporting your vision health with a range of specialized services."
     btnExists={true}
-    btnTitle="Schedule a Consultation"
-    btnURL="#"
+    btnTitle="Schedule a Free Consultation"
+    btnURL="https://appointments.optiplus.co.ke"
   />
   <!-- RightSection and LeftSection contain details about various services along with pertinent imagery.
   They alternate for variety in design.
@@ -160,21 +160,21 @@ const pageTitle: string = `Services | ${SITE.title}`;
   <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
     title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
+    subTitle="At OptiPlus, we are proud of our commitment to quality eye care. Our services are designed to ensure your vision health and satisfaction."
+    mainStatTitle="98%"
+    mainStatSubTitle="of our clients recommend OptiPlus for eye care services"
     stats={[
       {
-        stat: "99.8%",
-        description: "project completion rate",
+        stat: "100%",
+        description: "satisfaction guarantee",
       },
       {
-        stat: "5,000+",
-        description: "successful installations",
+        stat: "10,000+",
+        description: "successful eye exams conducted",
       },
       {
-        stat: "85%",
-        description: "client growth year-over-year",
+        stat: "95%",
+        description: "client retention rate",
       },
     ]}
   />

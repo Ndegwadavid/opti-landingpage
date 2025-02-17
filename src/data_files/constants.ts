@@ -1,14 +1,14 @@
 import ogImageSrc from "@images/social.png";
 
-
-
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Optiplus",
+  tagline: "Clarity in Every Vision",
+  description:
+    "Optiplus provides high-quality eyewear, including prescription glasses, sunglasses, and contact lenses. Experience comfort, style, and precision with our expertly crafted lenses and frames. Explore our collection and find your perfect fit today.",
+  description_short:
+    "Optiplus offers premium eyewear, including prescription glasses, sunglasses, and contact lenses, combining style and functionality.",
+  url: "https://optiplus.co.ke",
+  author: "David Njoroge",
 };
 
 export const SEO = {
@@ -35,10 +35,12 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: Premium Eyewear & Vision Solutions`,
+  description:
+    "Discover Optiplus: your go-to destination for high-quality prescription glasses, stylish sunglasses, and comfortable contact lenses. Experience crystal-clear vision and top-tier craftsmanship with our expertly designed eyewear collection.",
   image: ogImageSrc,
 };
+
 
 export const partnersData = [
     {

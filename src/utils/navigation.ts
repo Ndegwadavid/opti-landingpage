@@ -9,30 +9,31 @@ const navBarLinks = [
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Optiplus",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "home", url: "/#" },///welcome-to-docs/
+      { name: "Products", url: "/products" },
+      { name: "Services", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "Links",
     links: [
       { name: "About us", url: "#" },
       { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "Offers", url: "#" },
+      { name: "", url: "#" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
+  facebook: "https://www.facebook.com/optiplus.kenya",
+  instagram: "https://www.facebook.com/optiplus.kenya",
+  x: "https://twitter.com/optiplusltd",
+  github: "#",
   google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  slack: "#",
 };
 
 export default {

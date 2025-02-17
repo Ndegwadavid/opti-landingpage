@@ -1,38 +1,30 @@
+
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
+  "title": "Simple, Transparent Solutions",
+  "subTitle": "Enhance your style and vision with our expertly curated eyewear collections.",
   "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
-
+  "thirdOption": "Custom Designs?",
+  "btnText": "Contact Sales",
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Essential Collection",
+    "description": "Discover our selection of everyday eyewear designed to provide clarity and comfort.",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Classic frame styles",
+      "Customizable lens options",
+      "Reliable quality"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Learn More",
+    "purchaseLink": "https://wa.me/+254702220545"
   },
-
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Signature Collection",
+    "description": "Experience premium eyewear crafted for those who demand excellence in both style and function.",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Designer frames",
+      "Advanced lens technology",
+      "Personalized consultations"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Learn More",
+    "purchaseLink": "https://wa.me/+254702220545"
   }
 }

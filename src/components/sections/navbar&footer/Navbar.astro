@@ -23,14 +23,11 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
     aria-label="Global"
   >
     <div class="flex items-center justify-between">
-      <!-- Brand logo -->
-      <a
-        class="flex-none rounded-lg text-xl font-bold outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
-        href={homeUrl}
-        aria-label="Brand"
-      >
-        <BrandLogo class="h-auto w-24" />
-      </a>
+  <!-- Brand logo -->
+  <a href="/" aria-label="OptiPlus">
+      <img src="/src/images/icon.png" alt="OptiPlus Logo" class="h-auto w-20 md:w-24 lg:w-28" />
+    </a>
+
       <!-- Collapse toggle for smaller screens -->
       <div class="ml-auto mr-5 md:hidden">
         <button

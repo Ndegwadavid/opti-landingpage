@@ -1,13 +1,15 @@
 ---
-title: "SF-AB A765"
-description: "Assorted Screw Set" 
+title: "OptiPlus Photochromatic Sunglasses"
+description: "Adaptive Smart Eyewear"
+
 main:
   id: 2
   content: |
-    Introducing the SF-AB A765 Assorted Screw Set – the ultimate solution for your screw fastening needs. This comprehensive set includes a wide variety of screws meticulously curated to tackle various projects with ease and precision.
+    Introducing OptiPlus Photochromatic Sunglasses – revolutionary eyewear that adapts to your environment. These innovative sunglasses feature advanced light-sensitive technology that automatically adjusts lens tint based on UV exposure, providing optimal vision and protection in any lighting condition.
   imgCard: "@/images/product-image-2.avif"
   imgMain: "@/images/product-image-main-2.avif"
-  imgAlt: "Mockup boxes of assorted screw set"
+  imgAlt: "Mockup of photochromatic sunglasses showing lens transition"
+
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -18,36 +20,41 @@ tabs:
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
+
 longDescription:
-  title: "Versatile Screw Fastening Solutions"
+  title: "Smart Adaptive Technology"
   subTitle: |
-    The SF-AB A765 Assorted Screw Set offers unmatched versatility and convenience, making it the perfect choice for DIY enthusiasts and professionals alike. With a comprehensive selection of screws, you'll always have the right fastener for the job.
+    OptiPlus Photochromatic Sunglasses seamlessly transition from clear to dark based on UV intensity. Perfect for dynamic environments, these glasses eliminate the need to switch between regular glasses and sunglasses throughout your day.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
+
 descriptionList:
-  - title: "Wide Variety"
-    subTitle: "Includes a diverse range of screw types and sizes to accommodate various applications and materials."
-  - title: "Ease of Use"
-    subTitle: "Each screw is designed for effortless installation, ensuring hassle-free fastening every time."
-  - title: "Convenience"
-    subTitle: "Eliminates the need for multiple trips to the hardware store, saving time and effort on your projects."
+  - title: "Adaptive Tint"
+    subTitle: "Advanced photochromatic molecules respond instantly to UV light, automatically adjusting lens darkness for optimal visibility in any condition."
+  - title: "Rapid Response"
+    subTitle: "Quick transition technology ensures fast adaptation to changing light conditions, providing continuous comfort and protection."
+  - title: "All-Day Versatility"
+    subTitle: "Perfect for both indoor and outdoor use, eliminating the need to switch between different pairs of glasses."
+
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Constructed from high-quality materials such as stainless steel, ensuring durability and corrosion resistance."
-  - title: "Assortment"
-    subTitle: "Contains a generous assortment of screws, including wood screws, machine screws, and sheet metal screws."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of screws to handle a wide range of projects and tasks."
-  - title: "Sizes"
-    subTitle: "Available in various sizes to suit different project requirements, ensuring compatibility and versatility."
+  - title: "Lens Technology"
+    subTitle: "State-of-the-art photochromatic compounds embedded in high-quality optical grade lenses."
+  - title: "Transition Time"
+    subTitle: "Darkens in 30 seconds, clears in under 2 minutes for responsive light adaptation."
+  - title: "Protection Range"
+    subTitle: "100% UV protection in both clear and darkened states, with variable visible light transmission."
+  - title: "Durability"
+    subTitle: "Temperature-stable photochromatic technology maintains consistent performance in various weather conditions."
+
 tableData:
   - feature: ["Specification", "Value"]
     description:
-      - ["Length (mm)", "Various"]
-      - ["Weight (g)", "N/A"]
-      - ["Material", "Stainless Steel"]
-      - ["Finish", "Assorted"]
-      - ["Package Contents", "Various screws in a set"]
+      - ["Lens Material", "Photochromatic Polymer"]
+      - ["Light Transmission", "85% (Clear) to 15% (Dark)"]
+      - ["UV Protection", "100% (UV400)"]
+      - ["Temperature Range", "-10°C to 40°C"]
+      - ["Package Contents", "Sunglasses, Protective Case, Cleaning Kit"]
+
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
